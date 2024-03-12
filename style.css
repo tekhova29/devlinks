@@ -88,5 +88,75 @@
 .div2 {
   height: 679px;
   width: 806px;
-  background-color: blueviolet;
+}
+
+h1 {
+  height: 48px;
+  width: 728px;
+  color: rgb(29, 27, 27);
+  margin-left: 40px;
+}
+
+p {
+  height: 24px;
+  width: 728px;
+  color: rgb(122, 119, 119);
+  margin-left: 40px;
+}
+.add-div {
+  height: 46px;
+  width: 728px;
+  border-radius: 8px;
+  margin-left: 40px;
+  border-color: purple;
+  color: purple;
+  margin-top: 40px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.link1-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: 228px;
+  width: 728px;
+  border-radius: 12px;
+  background-color: #d9d9d9;
+  margin-left: 40px;
+}
+.link1-1 {
+  height: 24px;
+  width: 74px;
+  color: gray;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-top: 24px;
+}
+
+.remove {
+  height: 24px;
+  width: 61px;
+  color: gray;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 24px;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  height: 228px;
+}
+
+select {
+  height: 48px;
+  width: 688px;
+  color: black;
+  border-radius: 8px;
+  border: 1px solid darkgray;
 }
